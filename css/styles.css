@@ -1,0 +1,18 @@
+/* Overall Styling */
+
+* {
+    background-color: #465F3D;
+}
+
+/* Image Styling */
+
+.image_main {
+    display: flex;
+    max-height: 90vh;
+
+}
+
+.image_supp {
+    display: flex;
+    max-height: 70vh;
+}

@@ -4,15 +4,27 @@
     background-color: #465F3D;
 }
 
+/* Flex Properties */
+
+.main-header,
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-footer {
+    padding: 2em 0
+}
+
 /* Image Styling */
 
 .image_main {
-    display: flex;
     max-height: 90vh;
 
 }
 
 .image_supp {
-    display: flex;
     max-height: 70vh;
 }
+

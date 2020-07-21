@@ -2,15 +2,49 @@
 
 * {
     background-color: #465F3D;
+    padding: 5px;
 }
 
 /* Flex Properties */
+
+.top-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+a:link {
+    color: #340554;
+}
+
+a:visited {
+    color: #880C32;
+}
+
+a:hover {
+    color: #115DF2;
+}
 
 .main-header,
 .main-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.main-list {
+    display: flex;
+    flex-direction: column;
+    width: 8em;
+}
+
+li:nth-child(odd) {
+    background: #577C56;
+}
+
+li:nth-child(even) {
+    background: #789774;
 }
 
 .main-footer {
@@ -21,10 +55,25 @@
 
 .image_main {
     max-height: 90vh;
-
 }
 
 .image_supp {
     max-height: 70vh;
 }
 
+/* Media Queries */
+
+@media (min-width: 1080px) {
+    .three-columns {
+        max-height: 70vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        /* To add anything for the screen at it's smallest point */
+    }
+}

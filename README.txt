@@ -2,7 +2,7 @@ This is the README file for my Front End Dev project.
 
 My chosen project was to create a site with information for identifying trees.
 
-There are no special instructions for running this project; all of the links are based off the folder structure that has been created.
+There are no special instructions for running this project; all of the links are relative to the folder structure that has been created. The structure was tested using both Google Chrome and MS Edge.
 
 I will be fulfilling the following Feature Requirements:
 

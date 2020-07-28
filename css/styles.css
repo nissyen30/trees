@@ -67,8 +67,10 @@ li:nth-child(even) {
 /* Image Styling */
 
 .image_main {
-    max-height: 90vh;
+    max-height: 100vh;
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .image_supp {
@@ -91,7 +93,7 @@ li:nth-child(even) {
 
 @media (max-width: 500px) {
     .top-list {
-        /* To add anything for the screen at it's smallest point */
+        /* Any adjustments needed for a mobile view only. */
         font-size: .9em;
     }
 }

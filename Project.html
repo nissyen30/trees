@@ -2,13 +2,18 @@
 <html lang="en">
 <!-- This is the main page -->
 <head>
+    <!-- Normal Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Meta Tag -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <title>Common Trees of Kentucky</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="background">
     <ul class="top-list">
         <li><a href="trees/oak.html">The Oak Tree</a></li>
         <li><a href="trees/maple.html">The Maple Tree</a></li>
@@ -16,11 +21,33 @@
     </ul>
     <header class="main-header">
         <h1>Common Trees in Kentucky</h1>
-        <h2>(and elsewhere in the SouthEast United States)</h2>
-        <img class="image_main" src="images/mountain_view.jpg" alt="Trees from Above">
+        <h2>(and elsewhere in the Southeast United States)</h2>
     </header>
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/mountain_view.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/mountain_view2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/misty_trees.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
     <p>Do you love to get out and explore the wild beauty of the world around you?</p>
-    <p>If you do, you have no doubt noticed that the natural world is often populated with nature's CO2 scrubbers which are commonly known as trees. Simply being around these passive cohabitants of our world may be enough for you or you might dismiss these large plants as just another part of the scenery or see them as a potential source of firewood.</p>
+    <p>If you do, you have no doubt noticed that the natural world is often populated with nature's CO2 scrubbers which are commonly known as trees. Simply being around these passive cohabitants of our world may be enough for you or you might dismiss these large plants as just another part of the scenery or even see them as just a potential source of firewood.</p>
     <p>But, if you would like to know more about trees, knowing which one you are looking at is a good start as each tree can have widely different characteristics depending on the genus and species to which it belongs.</p>
     <p>Below is a list of links to information about a few types of trees that are commonly found in Kentucky. Please choose one that interests you to begin learning more:</p>
     <ul class="main-list">
@@ -28,9 +55,15 @@
         <li><a href="trees/maple.html">The Maple Tree</a></li>
         <li><a href="trees/sycamore.html">The Sycamore Tree</a></li>
     </ul>
+    <button id="myButton">Click here for a few facts about deforestation!</button>
+    <p id="treeMessage" style="display:none">Somewhere between 3.5 and 7 billion trees are cut down every year. On average, a mature tree absorbs around 48 pounds of CO2 a year with young trees absorbing only around 13 pounds of CO2 a year. Assuming only young trees grown for lumber would be cut down, this would equate to an annual loss of capacity of between 23 to 45 million pounds of CO2 if these trees were not replaced. Lumber is a valuable and necessary resource, but this shows why replanting of trees for lumber is far preferable to cutting down old growth forests.</p>
     <footer class="main-footer">
         <p>Nothing to see here. Move along!</p>
         <a href="#top">Back to the top</a>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>

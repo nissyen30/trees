@@ -1,8 +1,21 @@
 /* Overall Styling */
 
 * {
-    background-color: #465F3D;
     padding: 5px;
+}
+
+.background {
+    background-color: #465F3D;
+}
+
+#myButton {
+    margin-top: 10px;
+    padding: 5px;
+    background: #577C56;
+}
+
+#treeMessage {
+    margin-top: 15px;
 }
 
 /* Flex Properties */
@@ -15,7 +28,7 @@
 }
 
 a:link {
-    color: #340554;
+    color: black;
 }
 
 a:visited {
@@ -55,10 +68,14 @@ li:nth-child(even) {
 
 .image_main {
     max-height: 90vh;
+    max-width: 100%;
 }
 
 .image_supp {
+    display: block;
     max-height: 70vh;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 /* Media Queries */

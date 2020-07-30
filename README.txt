@@ -12,9 +12,9 @@ There are no special instructions for running this project other than that you s
 
 I will be fulfilling the 4 following Feature Requirements:
 
-•	Use flexbox to rearrange 2 or more content areas on your page as the screen changes sizes - this will be found with the menu on the project.html page which flexes to remain spaced correctly and with the three-columns rule used on the oak.html, maple.html, & sycamore.html pages to change from 3 block items to 3 flex items in a column.
-•	Use media queries to switch from a one-column mobile layout to a two or more column desktop layout - this will be found on all of the pages
-•	Use “:nth child” CSS to style a series of elements (for example, change the color of every 2nd item in a list) - this will be found on the project.html page
+•	Use flexbox to rearrange 2 or more content areas on your page as the screen changes sizes - this will be found with the menu on the project.html page which flexes to remain spaced correctly and with the three-columns rule used on the oak.html, maple.html, & sycamore.html pages to change the content towards the bottom of the page from 3 block items in one column to 3 flex items in 3 columns.
+•	Use media queries to switch from a one-column mobile layout to a two or more column desktop layout - this will be found on the oak.html, maple.html, & sycamore.html pages
+•	Use “:nth child” CSS to style a series of elements (for example, change the color of every 2nd item in a list) - this will be found on the project.html page in both the menu at the top and the list of links towards the bottom
 •	Create an image carousel with at least 3 images that it rotates through - this will be found on the project.html page
 
 
